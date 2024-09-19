@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> College students major and countries </title>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Major</th> 
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Ahmed Ghanem </td>
+          <td> Finance </td> 
+          <td>Iraq</td>
+        </tr>
+        <tr>
+          <td>Abdullah</td>
+          <td>Comp sci </td> 
+          <td>Mexico</td>
+        </tr>
+          <tr>
+            <td>Ghanem </td>
+            <td> Finance </td> 
+            <td>Iraq</td>
+          </tr>
+          <tr>
+            <td>Jason</td>
+            <td>Comp sci </td> 
+            <td> Germany</td>
+          </tr>
+          <tr>
+            <th>Hisham</th>
+            <th>Bio</th> 
+            <th> Iraq</th>
+          </tr>
+          <tr>
+            <td> Yousif </td>
+            <td> Bio</td> 
+            <td>Iraq</td>
+          </tr>
+          <tr>
+            <td>Hussien</td>
+            <td>Comp sci </td> 
+            <td>Iraq</td>
+          </tr>
+          <tr>
+            <td>Ali</td>
+            <td> Finance </td> 
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td> Zain </td>
+            <td>Comp sci </td> 
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>sabah </td>
+            <td> Finance </td> 
+            <td>Iraq</td>
+          </tr>
+      </table>
+      <caption> College students Major and country </caption>
+
+      <h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Ahmed"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Ghanem"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+    <form action="https://formspree.io/f/xgvwjopv" method="post"> </form>
+        
+
+</body>
+
+</head>
+</html>
