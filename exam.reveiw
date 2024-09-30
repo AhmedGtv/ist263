@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<HTML>
+<body>
+
+<ol>
+  <li>oranges</li>
+  <li>apples</li>
+  <li>banana/li>
+</ol>
+
+</body>
+</HTML>
+
+
+
+<h1></h1>
+<h2></h2>
+<p></p>
+<strong></strong>
+<!-- -->
+<hr>
+<ul><li></li></ul> (list)
+<ol><li></li><ol> 
+
+<a href=""></a>
+<img src="" alt="">
+<iframe src="" title=""></iframe>
+
+<table><caption></caption><tr><th></th><td></td></tr><table>
+<form action="" method=""></form>
+<label for=""></label>
+<input type="text" id="" name="">
+<textarea id="comments" name="comments"></textarea>
+<input type="submit" value="">
+<input type="radio" id="" name=" " value="">
+<input type="checkbox" id="" name="" value="">
+ <select name=" " id=" "><option value=""></option></select>
+
