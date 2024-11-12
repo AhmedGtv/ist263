@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation Task</title>
+    <style>
+        /* Initial styling for the div */
+        #universityDiv {
+            font-size: 24px;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Div with the initial text "Syracuse University" -->
+    <div id="universityDiv">Syracuse University</div>
+
+    <script>
+        // JavaScript to change text and color on click
+        document.getElementById("universityDiv").onclick = function() {
+            this.innerHTML = "Orange Nation";
+            this.style.color = "orange";
+        };
+    </script>
+
+</body>
+</html>
