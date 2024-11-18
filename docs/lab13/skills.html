@@ -1,16 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> College students major and countries </title>
-    <link rel="=stylecheet" href="/path/stylecheet.css">
-    
-</head>
-<body>
-  <nav>
-    <a href="file:///Users/ahmedghanem/Desktop/ist263/lab07/index.html">Home</a> |
-    <a href="file:///Users/ahmedghanem/Desktop/ist263/lab07/skills.html">Skills</a>
-
+    <title>College Students' Major and Countries</title>
+    <link rel="stylesheet" href="/path/stylecheet.css">
     <style>
         h1 {
             background-color: green;
@@ -31,47 +24,83 @@
         
         nav a:hover {
             background-color: #EB3678;
-           
-            selector {
-    padding: 10px;
-    
+        }
 
-}
+        nav {
+            margin-bottom: 30px;
+        }
 
-            selector {
-    background-color: #6EACDA;
-}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
 
-            nav{margin-bottom: 30px;}
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #6EACDA;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
     </style>
-</nav>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to Content</a>
+  
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="skills.html">Skills</a>
+  </nav>
+
+  <main id="main-content">
+    <h1>College Students' Major and Countries</h1>
+
     <table>
+        <caption>College Students' Majors and Countries</caption>
         <tr>
-          <th>Name</th>
-          <th>Major</th> 
-          <th>Country</th>
+            <th>Name</th>
+            <th>Major</th>
+            <th>Country</th>
         </tr>
         <tr>
-          <td>Ahmed Ghanem </td>
-          <td> Finance </td> 
-          <td>Iraq</td>
-        
-      <caption> College students Major and country </caption>
+            <td>Ahmed Ghanem</td>
+            <td>Finance</td>
+            <td>Iraq</td>
+        </tr>
+    </table>
 
-      <h2>HTML Forms</h2>
+    <h2>HTML Forms</h2>
+    <form action="/action_page.php">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value="Ahmed" aria-label="First Name">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" value="Ghanem" aria-label="Last Name">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form> 
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Ahmed"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Ghanem"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+    <form action="https://formspree.io/f/xgvwjopv" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" aria-label="Email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" aria-label="Message"></textarea>
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+  </main>
 
-    <form action="https://formspree.io/f/xgvwjopv" method="post"> </form>
-        
-
+  <footer>
+      <p>&copy; 2024 Ahmed Ghanem</p>
+  </footer>
 </body>
-
-</head>
 </html>

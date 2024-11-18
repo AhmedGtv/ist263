@@ -1,62 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact - Ahmed Ghanem</title>
+    <style>
+        h1 {
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+        
+        div {
+            background-color: lightblue;
+            padding: 10px;
+        }
+        
+        p {
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #021526;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #EB3678;
+            color: white;
+        }
+
+        nav {
+            margin-bottom: 30px;
+        }
+
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="file:///Users/ahmedghanem/Desktop/ist263/lab07/index.html">Home</a> |
-        <a href="file:///Users/ahmedghanem/Desktop/ist263/lab07/skills.html">Skills</a>
+    <!-- Skip to Content -->
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
 
-        <style>
-            h1 {
-                background-color: green;
-            }
-            
-            div {
-                background-color: lightblue;
-            }
-            
-            p {
-                background-color: yellow;
-            }
-    
-            nav a {
-                color: #021526;
-                text-decoration: none;
-            }
-            
-            nav a:hover {
-                background-color: #EB3678;
-               
-                selector {
-        padding: 10px;
-        
-    
-    }
-    
-                selector {
-        background-color: #6EACDA;
-    }
-    
-                nav{margin-bottom: 30px;}
-        </style>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="skills.html">Skills</a>
     </nav>
-    <h1>
-        Contact!
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <h1>Contact</h1>
         <p>
-            Ahmed Ghanem
-            212 Grant blvd 
-            Syrcause, Ny 13206
-        </p> 
-    </h1>
-    
-    <a href="https://www.linkedin.com/in/ahmed-ghanem-82058327b/ "> visit my linked in ! </a>
-    <a href="https://www.linkedin.com/in/ahmed-ghanem-82058327b/ "> <img src="../images/linked in photo.svg" alt= "linked-in logo" > </a>
-    <a href="mailto:Aghanem@syr.edu">Ahmed Ghanem email </a>
-    <a href="iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5829.287231886627!2d-76.11612258083962!3d43.0699624711362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f2eef826992d%3A0xdb26fb6cbd8a8c5f!2s212%20Grant%20Blvd%2C%20Syracuse%2C%20NY%2013206!5e0!3m2!1sen!2sus!4v1726177342855!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </a>
+            <strong>Ahmed Ghanem</strong><br>
+            212 Grant Blvd<br>
+            Syracuse, NY 13206
+        </p>
+
+        <!-- LinkedIn Section -->
+        <section>
+            <h2>Connect with Me</h2>
+            <a href="https://www.linkedin.com/in/ahmed-ghanem-82058327b/">Visit my LinkedIn!</a><br>
+            <a href="https://www.linkedin.com/in/ahmed-ghanem-82058327b/">
+                <img src="../images/linked-in-photo.svg" alt="LinkedIn Logo">
+            </a>
+        </section>
+
+        <!-- Email Section -->
+        <section>
+            <h2>Contact Me</h2>
+            <a href="mailto:Aghanem@syr.edu">Send me an Email</a>
+        </section>
+
+        <!-- Google Maps Embed -->
+        <section>
+            <h2>Find Me Here</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5829.287231886627!2d-76.11612258083962!3d43.0699624711362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f2eef826992d%3A0xdb26fb6cbd8a8c5f!2s212%20Grant%20Blvd%2C%20Syracuse%2C%20NY%2013206!5e0!3m2!1sen!2sus!4v1726177342855!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                aria-label="Google Map of Ahmed Ghanem's location">
+            </iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ahmed Ghanem.</p>
+    </footer>
 </body>
 </html>
